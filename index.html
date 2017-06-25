@@ -1,0 +1,43 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<audio id="greenSound">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" type="audio/mp3">
+</audio>
+<audio id="redSound">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" type="audio/mp3">
+</audio>
+<audio id="blueSound">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" type="audio/mp3">
+</audio>
+<audio id="yellowSound">
+    <source src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" type="audio/mp3">
+</audio>
+<body>
+    <div id="fullContainer">
+        <h2 id="title">Simon Game</h2>
+        <div id="banner"></div>
+        <div class="container">
+            <div id="circle">
+            </div>
+            <div id="smallCircle">
+            </div>
+            <button id="newGame" class="btn btn-primary">New Game</button>
+            <h4 id="scoreLabel">Score: </h4><h4 id="score"></h4>
+            <h5 id="strictLabel">Strict Mode: </h5><button id="strictSwitch" class="btn btn-danger">Off</button>
+            <a id="green" class="curve">
+            </a>
+            <a id="red" class="curve">
+            </a>
+        </div>
+        <div class="container">
+            <a id="yellow" class="curve">
+            </a>
+            <a id="blue" class="curve">
+            </a>
+        </div>
+    </div>
+</body>
